@@ -1,0 +1,46 @@
+html {
+    font-size: calc(1em + 1vw);
+}
+
+.containerDiv {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.contentDiv {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.navBar {
+    background-color: transparent;
+    width: 100vw;
+    display: flex;
+    color: black;
+    flex: 0.07;
+}
+
+
+.navBar ul {
+    flex: 1;
+    flex-direction: row;
+    display: flex;
+    padding: 0;   
+}
+
+.navBar li {
+    list-style: none;
+    flex: 1;
+    text-align: center;
+}
+
+.navBar span {
+    font-family: 'Londrina Solid', cursive;
+    margin: 0;
+}
+
+.activeTab {
+    border-bottom: 2px solid rgba(135, 214, 141);
+}
