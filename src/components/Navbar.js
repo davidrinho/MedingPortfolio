@@ -1,14 +1,13 @@
 import React, {useState} from 'react';
 import colors from '../constants/theme';
 
-const Navbar = () => {
+const Navbar = ({setActivePage}) => {
 
-    const [activeTab, setActiveTab] = useState(null);
+    const [activeTab, setActiveTab] = useState("homeTab");
 
     const toggleClass = (element) => {
         setActiveTab(element);
-        //document.getElementById(element).classList.toggle('activeTab');
-        console.log(activeTab);
+        setActivePage(element);
     }
 
     return (

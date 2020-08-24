@@ -20,6 +20,8 @@ html {
     display: flex;
     color: black;
     flex: 0.07;
+    justify-content: center;
+    align-items: center;
 }
 
 

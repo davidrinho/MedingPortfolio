@@ -8,45 +8,44 @@ import './css/Main.css'
 
 const App = () => {
 
-  const [activeTab, setActiveTab] = useState("homeTab");
+  const [activePage, setActivePage] = useState("homeTab");
 
   useEffect(() => {
-    getActiveTab();
-  }, [])
+    getactivePage();
+  }, [activePage])
 
 
-  const getActiveTab = () => {
+  const getactivePage = () => {
     var navList = document.getElementById("navList");
     var children = navList.childNodes;
     children.forEach(element => {
-      if (element.firstChild.className === "activeTab") {
-        setActiveTab(element.firstChild.nodeValue);
+      if (element.firstChild.className === "activePage") {
+        setActivePage(element.firstChild.nodeValue);
       }
     });
   }
 
   const renderContent = () => {
-    console.log("ACTIVE TAB");
-    console.log(activeTab);
-    if (activeTab === "homeTab") {
+    if (activePage === "homeTab") {
       return <Home />
     }
-    else if (activeTab === "projectsTab") {
+    else if (activePage === "projectsTab") {
       return <Projects />
     }
-    else if (activeTab === "contactTab") {
+    else if (activePage === "contactTab") {
       return <Contact />
     }
-    else if (activeTab === "aboutTab") {
+    else if (activePage === "aboutTab") {
       return <About />
     }
   }
 
   return (
     <div className="containerDiv">
-      <Navbar />
+      <Navbar
+        setActivePage={setActivePage} />
       <div className="contentDiv">
-        {renderContent()}
+        {activePage !== null ? renderContent() : "error"}
       </div>
     </div>
   );
