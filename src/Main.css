@@ -1,0 +1,20 @@
+.containerDiv {
+    flex-direction: column;
+    background-color: violet;
+    display: flex;
+    height: 100vh;
+}
+
+.firstDiv {
+    flex: 1;
+    background-color: green;
+}
+
+.secondDiv {
+    flex: 1;
+    background-color: red;
+}
+
+.text {
+    color: yellow;
+}
