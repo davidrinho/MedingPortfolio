@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/MedingPortfolio/static/css/main.c02389a7.chunk.css",
+    "main.js": "/MedingPortfolio/static/js/main.c4d18b8c.chunk.js",
+    "main.js.map": "/MedingPortfolio/static/js/main.c4d18b8c.chunk.js.map",
+    "runtime-main.js": "/MedingPortfolio/static/js/runtime-main.0e954930.js",
+    "runtime-main.js.map": "/MedingPortfolio/static/js/runtime-main.0e954930.js.map",
+    "static/js/2.ea68924e.chunk.js": "/MedingPortfolio/static/js/2.ea68924e.chunk.js",
+    "static/js/2.ea68924e.chunk.js.map": "/MedingPortfolio/static/js/2.ea68924e.chunk.js.map",
+    "index.html": "/MedingPortfolio/index.html",
+    "precache-manifest.fd6e68364e86258f18907ed7c53af8ff.js": "/MedingPortfolio/precache-manifest.fd6e68364e86258f18907ed7c53af8ff.js",
+    "service-worker.js": "/MedingPortfolio/service-worker.js",
+    "static/css/main.c02389a7.chunk.css.map": "/MedingPortfolio/static/css/main.c02389a7.chunk.css.map",
+    "static/js/2.ea68924e.chunk.js.LICENSE.txt": "/MedingPortfolio/static/js/2.ea68924e.chunk.js.LICENSE.txt",
+    "static/media/david.png": "/MedingPortfolio/static/media/david.45b141e7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e954930.js",
+    "static/js/2.ea68924e.chunk.js",
+    "static/css/main.c02389a7.chunk.css",
+    "static/js/main.c4d18b8c.chunk.js"
+  ]
+}
