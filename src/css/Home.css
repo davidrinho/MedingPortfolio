@@ -8,8 +8,11 @@
 .leftDiv {
     flex: 1;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: left;
     display: flex;
+    animation-name: bgAnim1;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
 }
 
 .rightDiv {
@@ -19,6 +22,9 @@
     justify-content: center;
     align-items: flex-end;
     display: flex;
+    animation-name: bgAnim2;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
 }
 
 
@@ -34,4 +40,37 @@
 .socialMediaDiv a {
     flex: 1;
     text-align: center;
+}
+
+.leftText {
+    animation-name: textAnim1;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+}
+
+.rightText {
+    animation-name: textAnim2;
+    animation-duration: 8s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes bgAnim1 {
+    from {background-color: rgba(188, 235, 203);}
+    to {background-color: rgba(147, 180, 139);}
+}
+
+@keyframes bgAnim2 {
+    from {background-color: rgba(147, 180, 139);}
+    to {background-color: rgba(188, 235, 203);}
+}
+
+@keyframes textAnim1 {
+    from {color: rgba(147, 180, 139);}
+    to {color: rgba(188, 235, 203);}
+}
+
+@keyframes textAnim2 {
+    from {color: rgba(188, 235, 203);}
+    to {color: rgba(147, 180, 139);} 
 }

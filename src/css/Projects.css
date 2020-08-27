@@ -1,0 +1,24 @@
+.projectsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.projectDiv {
+    border: 1px solid rgba(188, 235, 203);
+    margin: 2px;
+}
+
+.projectDiv h2 {
+    margin-left: 30px;
+    border-bottom: 1px solid;
+    display: inline-block;
+    margin-bottom: 0;
+    font-family: 'Londrina Solid';
+    color: rgba(188,235,203);
+}
+
+.projectDiv h4 {
+    margin-left: 30px;
+    color: rgba(188,235,203);
+}

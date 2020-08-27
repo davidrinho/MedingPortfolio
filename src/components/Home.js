@@ -13,15 +13,15 @@ const Home = () => {
     return (
         <div className="homeContentDiv" style={{backgroundColor: colors["magic mint"]}}>
             <div className="leftDiv">
-                <div className="textBox" style={{marginTop: 40}}>
-                    <h2 style={{color: colors["dark sea green"]}}>Hello,</h2>
-                    <h2 style={{color: colors["dark sea green"], margin: 0}}>I'm David Meding,</h2>
-                    <h2 style={{color: colors["dark sea green"], margin: 0}}>I do code and stuff</h2>
+                <div className="textBox" style={{marginTop: 40, marginLeft: 20}}>
+                    <h2 className="leftText" style={{color: colors["dark sea green"]}}>Hello,</h2>
+                    <h2 className="leftText" style={{color: colors["dark sea green"], margin: 0}}>I'm David Meding,</h2>
+                    <h2 className="leftText" style={{color: colors["dark sea green"], margin: 0}}>I do code and stuff</h2>
                 </div>
             </div>
             <div className="rightDiv" style={{backgroundColor: colors["dark sea green"]}}>
             <div className="textBox" style={{textAlign: 'right', marginBottom: 40}}>
-                    <h2 style={{color: colors["magic mint"], margin: 0}}>Social Media</h2>
+                    <h2 className="rightText" style={{color: colors["magic mint"], margin: 0}}>Social Media</h2>
                     <div className="socialMediaDiv">
                         <a href="https://github.com/davidrinho" target="_blank"><img src={github}/></a>
                         <a href="https://www.facebook.com/david.ringborg" target="_blank"><img src={facebook}/></a>

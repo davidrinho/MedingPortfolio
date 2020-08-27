@@ -19,8 +19,8 @@ const Navbar = ({setActivePage}) => {
                         onClick={e => toggleClass(e.target.id)}>home</span>
                 </li>
                 <li>
-                    <span id="projectTab"
-                        className={activeTab === 'projectTab' ? 'activeTab' : null}
+                    <span id="projectsTab"
+                        className={activeTab === 'projectsTab' ? 'activeTab' : null}
                         onClick={e => toggleClass(e.target.id)}>projects</span>
                 </li>
                 <li>
